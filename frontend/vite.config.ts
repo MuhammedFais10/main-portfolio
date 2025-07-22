@@ -17,5 +17,5 @@ export default defineConfig(({ mode }) => ({
       "@": path.resolve(__dirname, "./src"),
     },
   },
-  base:process.env.VITE_BASE_PATH || "/main-portfolio", // ✅ This is the fix
+  base:process.env.VITE_BASE_PATH || "/", // ✅ This is the fix
 }));
