@@ -48,8 +48,8 @@ export const  ProjectLinks = [
       description: 'A comprehensive food delivery platform featuring microservices architecture, real-time tracking, secure payments, and modern UI/UX design.',
       longDescription: 'Built with clean architecture patterns, JWT authentication, PayPal gateway integration, Cloudinary for image management, and Leaflet for real-time restaurant tracking.',
       technologies: ['React.js', 'Node.js', 'MongoDB', 'Express.js', 'JWT', 'PayPal API', 'Cloudinary', 'Leaflet'],
-      liveDemo: 'https://foodmine-mernstack-js.onrender.com',
-      github: '#',
+      liveDemo: 'https://foodmenufrontend.vercel.app/',
+      github: 'https://github.com/MuhammedFais10/FoodMenu-MernStack-',
     //  image: 'bg-gradient-to-br from-orange-400/20 to-red-500/20',
      image: '/ProjectImages/FoodMenu-Img.png',
       stats: {
@@ -66,7 +66,7 @@ export const  ProjectLinks = [
       longDescription: 'Features microservices architecture, real-time WebSocket communication, Redux Toolkit for state management, and comprehensive JWT-based security.',
       technologies: ['React.js', 'Node.js', 'Socket.io', 'Redux Toolkit', 'JWT', 'MongoDB'],
       liveDemo: 'https://chatapp-tqwn.onrender.com',
-      github: '#',
+      github: 'https://github.com/MuhammedFais10/ChatApp',
       image: '/ProjectImages/ChatApp.png',
       stats: {
         stars: '32+',

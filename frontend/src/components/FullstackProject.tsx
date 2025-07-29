@@ -9,24 +9,20 @@ import {
   Calendar,
 } from "lucide-react";
 import { ProjectLinks } from "../Api/ProjectLinkes";
-import { Link } from "react-router-dom";
-import { contactsLinks } from "@/Api/personalLinkes";
 
-const Projects = () => {
-  
+const FullstackProject = () => {
   return (
     <section id="projects" className="py-20 section-padding">
       <div className="container-custom">
         <div className="text-center mb-16">
           <h2 className="text-3xl sm:text-4xl font-bold mb-6 gradient-text">
             <Projector className="inline-block mr-3 text-primary" size={32} />
-            Featured Projects
+            FullStack Projects
           </h2>
           <div className="w-24 h-1 bg-gradient-to-r from-primary to-blue-400 mx-auto rounded-full"></div>
-          <p className="text-muted-foreground mt-4 max-w-2xl mx-auto">
-            Showcasing real-world applications built with modern technologies
-            and best practices
-          </p>
+          <p className="text-muted-foreground max-w-2xl mx-auto">
+          These are my fullstack applications built using the MERN stack.
+        </p>
         </div>
 
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
@@ -147,18 +143,10 @@ const Projects = () => {
           ))}
         </div>
 
-        {/* View More Projects */}
-        <div className="mt-16 text-center">
-          <Link
-            to="/projectpage"
-            className="inline-block border-2 border-primary/20 text-primary px-8 py-4 rounded-xl font-semibold hover:border-primary/40 hover:bg-primary/5 transition-all duration-300 hover:scale-105"
-          >
-            View All Projects
-          </Link>
-        </div>
+     
       </div>
     </section>
   );
 };
 
-export default Projects;
+export default FullstackProject;
