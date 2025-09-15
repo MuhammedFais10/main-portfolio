@@ -1,44 +1,4 @@
-// export const projectCards = [
-//   {
-//     title: "FoodMine",
-//     type: "Full-Stack Web App",
-//     status: "Featured",
-//     description:
-//       "A comprehensive food delivery platform featuring microservices architecture, real-time tracking, secure payments, and modern UI/UX design.",
-//     stars: "45+",
-//     users: "500+",
-//     duration: "3 months",
-//     technologies: ["React.js", "Node.js", "MongoDB", "Express.js", "+4"],
-//     demoUrl: "#", // replace with actual demo URL
-//     codeUrl: "#", // replace with actual code URL
-//   },
-//   {
-//     title: "ChatApp",
-//     type: "Real-time Application",
-//     status: "Featured",
-//     description:
-//       "Modern messaging application with WebSocket integration, theme customization, and secure authentication system.",
-//     stars: "32+",
-//     users: "200+",
-//     duration: "2 months",
-//     technologies: ["React.js", "Node.js", "Socket.io", "Redux Toolkit", "+2"],
-//     demoUrl: "#", // replace with actual demo URL
-//     codeUrl: "#", // replace with actual code URL
-//   },
-//   {
-//     title: "Portfolio Website",
-//     type: "Frontend Showcase",
-//     status: "",
-//     description:
-//       "Modern, responsive portfolio website showcasing development skills with smooth animations and professional design.",
-//     stars: "28+",
-//     users: "100+",
-//     duration: "1 month",
-//     technologies: ["React.js", "Tailwind CSS", "TypeScript", "Vite"],
-//     demoUrl: "#", // replace with actual demo URL
-//     codeUrl: "#", // replace with actual code URL
-//   },
-// ];
+
 
 
 export const  ProjectLinks = [
@@ -50,7 +10,7 @@ export const  ProjectLinks = [
       technologies: ['React.js', 'Node.js', 'MongoDB', 'Express.js', 'JWT', 'PayPal API', 'Cloudinary', 'Leaflet'],
       liveDemo: 'https://frontendfoodmine.vercel.app/',
       github: 'https://github.com/MuhammedFais10/FoodMenu-MernStack-',
-    //  image: 'bg-gradient-to-br from-orange-400/20 to-red-500/20',
+  
      image: '/ProjectImages/FoodMenu-Img.png',
       stats: {
         stars: '45+',
