@@ -10,7 +10,7 @@ import {
 } from "lucide-react";
 import { ProjectLinks } from "../Api/ProjectLinkes";
 import { Link } from "react-router-dom";
-import { contactsLinks } from "@/Api/personalLinkes";
+
 
 const Projects = () => {
   
@@ -45,9 +45,7 @@ const Projects = () => {
                   className="object-cover w-full h-full rounded-xl"
                 />
 
-                {/* <div className="text-4xl font-black text-primary/30">
-                  {project.title.charAt(0)}
-                </div> */}
+      
 
                 {/* Quick Actions */}
                 <div className="absolute top-4 right-4 flex space-x-2">
